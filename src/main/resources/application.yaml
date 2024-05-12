@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: gucci_store
+    password: gucci_store
+    url: jdbc:mysql://localhost:3306/gucci_store
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    defer-datasource-initialization: true
